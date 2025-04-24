@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: minecraft;
+    src: url(../fontes/Minecrafter.Alt.ttf);
+}
+@font-face{
+    font-family: minecraft2;
+    src: url(../fontes/Minecrafter.Reg.ttf);
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    border: solid 3px black;
+    font-family: minecraft2;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: darkolivegreen;
+    background-color: #964B00;
+    border-top: solid 15px darkgreen;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    border: solid 3px black;
+    font-family: minecraft;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: darkgray;
+    background-color: gray;
+}
+h3{
+    text-align: center;
+    font-size: 100px;
+    border: solid 3px black;
+    font-family: minecraft2;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: red;
+    border-top: dashed 4px black;
+    background-color: darkred;
+    border-bottom: none;
+}
+h4{
+    text-align: center;
+    font-size: 90px;
+    border: solid 3px black;
+    font-family: minecraft;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: orange;
+    background-color: orangered;
+    border-top: dashed 5px darkred;
+    border-bottom: dashed 3px black;
+}
+h5{
+    text-align: center;
+    font-size: 90px;
+    border: solid 3px gray;
+    font-family: minecraft;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: purple;
+    color: plum;
+    background-color: rgb(47, 47, 47);
+    border-bottom: none;
+    border-top: none;
+}
+h6{
+    border-top: none;
+    text-align: center;
+    font-size: 90px;
+    border: solid 3px gray;
+    font-family: minecraft;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: darkgray;
+    color: gray;
+    background-color: black;
+}
